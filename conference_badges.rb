@@ -15,9 +15,7 @@ end
 def assign_rooms(names)
   new_array = []
   names.each.with_index(1) do |attendee,index|
-    i = 0
-    while i < names.size
-      names[i] = "Hello, #{attendee}! You'll be assigned to room #{index}!"
+    new_array.push("Hello, #{attendee}! You'll be assigned to room #{index}!"
       i += 1
     end
   end
