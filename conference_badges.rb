@@ -13,7 +13,7 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
-  names.each.with_index(1) do |index, attendee|
+  names.each.with_index(1) do |attendee, index|
     i = 0
     while i < names.size
       names[i] = "Hello, #{attendee}! You'll be assigned to room #{index}!"
