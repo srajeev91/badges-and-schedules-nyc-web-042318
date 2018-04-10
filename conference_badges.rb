@@ -28,4 +28,5 @@ def printer
   assign_rooms(names).each do |list|
     puts list
   end
+  
 end
