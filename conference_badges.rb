@@ -16,7 +16,7 @@ def assign_rooms(names)
   names.each_with_index do |attendee, index|
     i = 0
     while i < names.size
-      names[i] = "Hello, #{attendee}! You'll be assigned to room #{index}!"
+      names[i] = "Hello, #{attendee}! You'll be assigned to room #{i}!"
       i += 1
     end
   end
