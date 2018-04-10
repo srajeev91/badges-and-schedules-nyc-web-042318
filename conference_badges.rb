@@ -13,6 +13,7 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
+  new_array = []
   names.each.with_index(1) do |attendee,index|
     i = 0
     while i < names.size
